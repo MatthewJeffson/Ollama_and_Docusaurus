@@ -1,3 +1,6 @@
+![](https://raw.githubusercontent.com/MatthewJeffson/Ollama_and_Docusaurus/main/static/img/steps/test.png)
+
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
