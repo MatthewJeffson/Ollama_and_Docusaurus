@@ -1,0 +1,42 @@
+/* 界面的基本背景和排版样式 */
+.container {
+    background-color: #333;
+    color: #ddd;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* 标题的样式 */
+  .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #8fd3f4;
+  }
+  
+  /* 状态显示 */
+  .status {
+    color: #fff;
+    font-weight: bold;
+    background-color: #444;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  /* 按钮的基本样式 */
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* 按钮悬停效果 */
+  .button:hover {
+    background-color: #0056b3;
+  }
