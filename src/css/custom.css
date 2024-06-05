@@ -115,3 +115,9 @@
 
 /* 可能需要在 HTML 中添加字体链接 */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.calendar-container {
+  width: 100%;
+  max-width: 300px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}

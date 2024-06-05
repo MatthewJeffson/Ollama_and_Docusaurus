@@ -5,6 +5,59 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+.statusItem {
+  margin-bottom: 10px;
+}
+
+.moduleItem {
+  margin-bottom: 10px;
+}
+
+.circleButton {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background-color: #e0e0e0;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.circleButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.connected {
+  background-color: #4caf50;
+  color: white;
+}
+
+.disconnected {
+  background-color: #8DC21F;
+  color: white;
+}
+
+@keyframes breathingLight {
+  0% {
+    box-shadow: 0 0 5px 2px rgba(0, 255, 0, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 5px 2px rgba(0, 255, 0, 0.7);
+  }
+}
+
+.breathingButton {
+  animation: breathingLight 2s infinite;
+}
+
+
 .chatContainer {
   position: absolute;
   bottom: 20%;
@@ -63,3 +116,41 @@
   border-radius: 4px;
   cursor: pointer;
 }
+
+/* ... (rest of the styles remain the same) */
+
+.moduleStatusContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.moduleItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circleButton {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #5A1662;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.circleButton.connected {
+  background-color: green;
+}
+
+.circleButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+

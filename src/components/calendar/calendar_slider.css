@@ -1,0 +1,21 @@
+.calendar-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .calendar-wrapper {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .calendar-wrapper > div {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  
+  .slider-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }

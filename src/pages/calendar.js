@@ -3,8 +3,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import ChatComponent from '../components/ChatComponents/ChatComponent';
 import UiForOperatingCSS from '../components/calendar/ui_for_operating_css';
-import CalendarSlider from '../components/calendar/calendar_slider';
-// Import all your calendar components here
 
 const MyPage = () => {
   const { siteConfig } = useDocusaurusContext();
@@ -23,10 +21,6 @@ const MyPage = () => {
               />
             </div>
             <UiForOperatingCSS />
-            <div className="calendar-container">
-            <CalendarSlider />
-              {/* Render all your calendar components here */}
-            </div>
           </div>
         </div>
         <div style={{ flex: '1', padding: '20px' }}>
